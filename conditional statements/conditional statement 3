@@ -1,0 +1,183 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "cbd4e2c5",
+   "metadata": {},
+   "source": [
+    "***1. A company decided to giv bonus of 5% to employee if his/her year of service is more than 5 years.ask use for their salary and yrar of service and print the net bonus amount.***"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "ba48a78e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter the year of service8\n",
+      "enter the salary of the employee40000\n",
+      "net bouns is 2000.0\n",
+      "total salary after bonus is 42000.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "year=int(input('enter the year of service'))\n",
+    "if year>=5:\n",
+    "    salary=int(input('enter the salary of the employee'))\n",
+    "    bonus=salary*0.05\n",
+    "    print('net bouns is', bonus)\n",
+    "    print('total salary after bonus is',salary+bonus)\n",
+    "else:\n",
+    "    print('service is less than 5 years, not eligible')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9b263d92",
+   "metadata": {},
+   "source": [
+    "***2. write a program to take input of length and breath of a rectangle from user and check if it is square or not.***"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "40dc7847",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter the length5\n",
+      "enter the breath5\n",
+      "it is square\n"
+     ]
+    }
+   ],
+   "source": [
+    "l=int(input('enter the length'))\n",
+    "b=int(input('enter the breath'))\n",
+    "if l==b:\n",
+    "    print('it is square')\n",
+    "else:\n",
+    "    print('it is not square')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "54fbc3cf",
+   "metadata": {},
+   "source": [
+    "***3. take input of age of 3 people by user and determine oldest and youngest among them.***"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "280dcdba",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter the age of 1st person65\n",
+      "enter the age of 2nd person54\n",
+      "enter the age of 3rd person34\n",
+      "1st person is oldest\n",
+      "3rd person is youngest\n"
+     ]
+    }
+   ],
+   "source": [
+    "p1=int(input('enter the age of 1st person'))\n",
+    "p2=int(input('enter the age of 2nd person'))\n",
+    "p3=int(input('enter the age of 3rd person'))\n",
+    "if p1>p2 and p1>p3:\n",
+    "    print('1st person is oldest')\n",
+    "elif p2>p1 and p2>p3:\n",
+    "    print('2nd person is oldest')\n",
+    "else:\n",
+    "    print('3rd person is oldest')\n",
+    "if p1<p2 and p1<3:\n",
+    "    print('1st person is youngest')\n",
+    "elif p2<p1 and p2<p3:\n",
+    "    print('2nd person is youngest')\n",
+    "else:\n",
+    "    print('3rd person is youngest')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1ee5f7c2",
+   "metadata": {},
+   "source": [
+    "***4. print grade of students***"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "f98f9e7f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter the obtained marks55\n",
+      "C\n"
+     ]
+    }
+   ],
+   "source": [
+    "n=int(input('enter the obtained marks'))\n",
+    "if n>80 and n<=100:\n",
+    "    print('A')\n",
+    "elif n>60 and n<=80:\n",
+    "    print('B')\n",
+    "elif n>40 and n<=60:\n",
+    "    print('C')\n",
+    "elif n>25 and n<=40:\n",
+    "    print('D')\n",
+    "else:\n",
+    "    print('wrong input')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8195c809",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
